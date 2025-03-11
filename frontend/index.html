@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detection App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Emotion Detection</h1>
+            <p class="subtitle">Speak and discover your emotional tone</p>
+        </header>
+        
+        <main>
+            <div class="record-section">
+                <button id="recordBtn" class="record-btn">
+                    <i class="fas fa-microphone"></i>
+                </button>
+                <p>Press to speak</p>
+            </div>
+            
+            <div class="status-section">
+                <p id="status" class="status">Ready</p>
+            </div>
+            
+            <div class="results-section">
+                <div class="result-card">
+                    <h2>Your Speech</h2>
+                    <div class="text-container">
+                        <p id="text">Your transcribed speech will appear here...</p>
+                    </div>
+                </div>
+                
+                <div class="result-card emotion-card">
+                    <h2>Detected Emotion</h2>
+                    <div id="detectedEmotion" class="emotion-display">
+                        Waiting for input...
+                    </div>
+                </div>
+            </div>
+            
+            
+        </main>
+        
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
