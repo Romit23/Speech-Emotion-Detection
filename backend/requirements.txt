@@ -2,3 +2,5 @@ fastapi
 uvicorn
 transformers
 pydantic
+sentencepiece
+torch
