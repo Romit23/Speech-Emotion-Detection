@@ -245,7 +245,7 @@ main {
 .emotion-card.emotion-happy { background: linear-gradient(135deg, #ffeb3b, #ff9800); }
 .emotion-card.emotion-sad { background: linear-gradient(135deg, #2196f3, #0288d1); }
 .emotion-card.emotion-angry { background: linear-gradient(135deg, #f44336, #c62828); }
-.emotion-card.emotion-fear { background: linear-gradient(135deg, #9c27b0, #6a1b9a); }
+.emotion-card.emotion-fear { background: linear-gradient(135deg, #757575, #757575); }
 .emotion-card.emotion-surprise { background: linear-gradient(135deg, #00e676, #00c853); }
 .emotion-card.emotion-neutral { background: linear-gradient(135deg, #bdbdbd, #757575); }
 .emotion-card.emotion-disgust { background: linear-gradient(135deg, #4caf50, #2e7d32); }
