@@ -11,41 +11,39 @@
     <div class="container">
         <header>
             <h1>Emotion Detection</h1>
-            <p class="subtitle">Speak and discover your emotional tone</p>
+            <p class="subtitle">Speak. Feel. Reveal.</p>
         </header>
         
         <main>
             <div class="record-section">
-                <button id="recordBtn" class="record-btn">
+                <button id="recordBtn" class="record-btn" aria-label="Start recording">
                     <i class="fas fa-microphone"></i>
                 </button>
-                <p>Press to speak</p>
+                <p class="record-hint">Tap to unleash your vibe</p>
             </div>
             
             <div class="status-section">
-                <p id="status" class="status">Ready</p>
+                <div id="status" class="status"><i class="fas fa-star"></i> Ready to roll</div>
             </div>
             
             <div class="results-section">
-                <div class="result-card">
-                    <h2>Your Speech</h2>
+                <div class="result-card speech-card">
+                    <h2>Your Words</h2>
                     <div class="text-container">
-                        <p id="text">Your transcribed speech will appear here...</p>
+                        <p id="text">Waiting for your voice...</p>
                     </div>
                 </div>
                 
                 <div class="result-card emotion-card">
-                    <h2>Detected Emotion</h2>
+                    <h2>Your Vibe</h2>
                     <div id="detectedEmotion" class="emotion-display">
-                        Waiting for input...
+                        <span>Listening for emotion...</span>
                     </div>
                 </div>
             </div>
-            
-            
         </main>
         
-        </div>
+    </div>
     
     <script src="script.js"></script>
 </body>
